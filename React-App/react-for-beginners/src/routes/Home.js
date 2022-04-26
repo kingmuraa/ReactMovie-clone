@@ -20,7 +20,7 @@ function Home() {
     console.log(movies);
     return ( 
       <div> 
-      {loading ? (~
+      {loading ? (
         <h1>Loading...</h1>
       ) : (
           <div>
